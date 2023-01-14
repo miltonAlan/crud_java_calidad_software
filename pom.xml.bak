@@ -42,20 +42,10 @@
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
-			<groupId>commons-dbcp</groupId>
-			<artifactId>commons-dbcp</artifactId>
-			<version>1.4</version>
-		</dependency>
-		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-api</artifactId>
 			<version>5.9.2</version>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.tomcat.embed</groupId>
-			<artifactId>tomcat-embed-core</artifactId>
-			<version>11.0.0-M1</version>
 		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
@@ -81,18 +71,13 @@
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.13.1</version>
-			<scope>test</scope>
+			<scope>teste</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-engine</artifactId>
 			<version>${junit.jupiter.version}</version>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.tomcat</groupId>
-			<artifactId>tomcat-dbcp</artifactId>
-			<version>8.0.5</version>
 		</dependency>
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
