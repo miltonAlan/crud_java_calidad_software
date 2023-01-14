@@ -1,3 +1,6 @@
+instalar MYSQL
+https://www.youtube.com/watch?v=hUZKNsnHe_A
+
 <p align="left"><img src="https://github.com/gustavottc/CRUD-Java/blob/master/logo.png" width="250" height="250"></p>
 
 # CRUD-JAVA-WEB

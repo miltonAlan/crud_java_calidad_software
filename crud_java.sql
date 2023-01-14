@@ -76,3 +76,36 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+
+-- tabla usuario
+insert into usuario (id_usuario, nome,        email,                    senha)
+values              (1,          'milton',    'milton999@gmail.com',    '1');
+insert into usuario (id_usuario, nome,        email,                    senha)
+values              (2,          'milton',    'milton999@gmail.com',    '1');
+insert into usuario (id_usuario, nome,        email,                    senha)
+values              (3,          'milton',    'milton999@gmail.com',    '1');
+insert into usuario (id_usuario, nome,        email,                    senha)
+values              (4,          'milton',    'milton999@gmail.com',    '1');
+insert into usuario (id_usuario, nome,        email,                    senha)
+values              (5,          'milton',    'milton999@gmail.com',    '1');
+insert into usuario (id_usuario, nome,        email,                    senha)
+values              (6,          'milton',    'milton999@gmail.com',    '1');
+insert into usuario (id_usuario, nome,        email,                    senha)
+values              (7,          'milton',    'milton999@gmail.com',    '1');
+insert into usuario (id_usuario, nome,        email,                    senha)
+values              (8,          'milton',    'milton999@gmail.com',    '1');
+insert into usuario (id_usuario, nome,        email,                    senha)
+values              (9,          'milton',    'milton999@gmail.com',    '1');
+insert into usuario (id_usuario, nome,        email,                    senha)
+values              (10,          'milton',    'milton999@gmail.com',    '1');
+insert into usuario (id_usuario, nome,        email,                    senha)
+values              (11,          'milton',    'milton999@gmail.com',    '1');
+insert into usuario (id_usuario, nome,        email,                    senha)
+values              (12,          'milton',    'milton999@gmail.com',    '1');
+insert into usuario (id_usuario, nome,        email,                    senha)
+values              (13,          'milton',    'milton999@gmail.com',    '1');
+insert into usuario (id_usuario, nome,        email,                    senha)
+values              (14,          'milton',    'milton999@gmail.com',    '1');
+insert into usuario (id_usuario, nome,        email,                    senha)
+values              (15,          'milton',    'milton999@gmail.com',    '1');
