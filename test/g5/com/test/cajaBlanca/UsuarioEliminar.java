@@ -13,7 +13,6 @@ public class UsuarioEliminar {
 	private List<Usuario> arrayUsuarios;
 
 	@Before
-	@Test
 	public void setUp() {
 		usuarioDAO = new UsuarioDAO();
 	}
