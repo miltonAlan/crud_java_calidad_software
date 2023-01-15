@@ -19,7 +19,7 @@ public class UsuarioEliminar {
 	}
 
 	@Test
-	@DisplayName("Debe regresar TRUE si el usuario fue eliminado")
+	@DisplayName("El test debe retornar FALSE pues ese usuario no existe")
 	public void testBorrarUsuarioNoExiste() {
 		try {
 //			obtenemos la lista de todos los usuarios

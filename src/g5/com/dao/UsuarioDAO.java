@@ -51,7 +51,7 @@ public class UsuarioDAO {
 			statement.close();
 		} catch (SQLException e) {
 			connection.rollback();
-			e.printStackTrace();
+//			e.printStackTrace();
 		} finally {
 			System.out.println("fechou");
 			connection.close();
