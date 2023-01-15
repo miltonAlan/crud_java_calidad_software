@@ -1,4 +1,4 @@
-package g5.com.test.cajaNegra.limites;
+package g5.com.test.limites;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -14,7 +14,6 @@ public class UpdateUsuario {
 	private Usuario usuario_3;
 	private Usuario usuario_4;
 	private UsuarioDAO usuarioDAO;
-//	private int usuarioEliminar = 117;
 
 	@Before
 	public void setUp() {
@@ -24,14 +23,14 @@ public class UpdateUsuario {
 		usuario_4 = new Usuario();
 		usuarioDAO = new UsuarioDAO();
 
-//		Valores validos
+//		Valores invalidos
 		usuario_1.setNome("Milton UPDATED");
 		usuario_1.setId_usuario(-2147483648);
 
 		usuario_2.setNome("Roberto UPDATED");
 		usuario_2.setId_usuario(-1);
 
-//		Valores invalidos
+//		Valores validos
 		usuario_3.setNome("Milton UPDATED");
 		usuario_3.setId_usuario(2147483647);
 
