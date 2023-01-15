@@ -108,4 +108,4 @@ values              (13,          'milton',    'milton999@gmail.com',    '1');
 insert into usuario (id_usuario, nome,        email,                    senha)
 values              (14,          'milton',    'milton999@gmail.com',    '1');
 insert into usuario (id_usuario, nome,        email,                    senha)
-values              (15,          'milton',    'milton999@gmail.com',    '1');
+values              (2147483647,          'milton',    'milton999@gmail.com',    '1');
