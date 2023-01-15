@@ -1,4 +1,4 @@
-package g5.com.test.limites;
+package g5.com.test.cajaNegra.limites;
 
 import org.junit.Before;
 import org.junit.Test;
