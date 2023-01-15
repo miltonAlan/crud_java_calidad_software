@@ -1,4 +1,4 @@
-package gustavo.com.github.dao;
+package g5.com.test;
 
 import java.util.ArrayList;
 import java.util.List;
