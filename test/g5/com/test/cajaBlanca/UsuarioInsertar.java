@@ -14,7 +14,6 @@ public class UsuarioInsertar {
 	private List<Usuario> arrayUsuarios;
 
 	@Before
-	@Test
 	public void setUp() {
 		usuario_1 = new Usuario();
 		usuarioDAO = new UsuarioDAO();
