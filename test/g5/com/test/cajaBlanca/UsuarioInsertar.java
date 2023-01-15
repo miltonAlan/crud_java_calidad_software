@@ -20,13 +20,13 @@ public class UsuarioInsertar {
 		usuarioDAO = new UsuarioDAO();
 
 		usuario_1.setNome("Milton Paucar");
-		usuario_1.setEmail("miltonpaucar999@gmail.com");
 		usuario_1.setSenha("1234567890");
+		usuario_1.setId_usuario(777);
 	}
 
 	@Test
 	@DisplayName("Se ingresa un usuario que sabemos que ya existe en la BDD")
-	public void testInsertarUsuarioB() {
+	public void testInsertarUsuarioA() {
 		try {
 //			Obtenemos la lista de todos los usuario que existen en la BDD
 			arrayUsuarios = usuarioDAO.listarUsuarios();
@@ -36,6 +36,23 @@ public class UsuarioInsertar {
 			usuario_1.setId_usuario((int) cantidadUsarios / 2);
 
 //			Ingresamos el usuario con un ID repetido
+			int idUsuarioCreado = (int) usuarioDAO.insertarUsuario(usuario_1);
+
+//			El metodo retorna 0 cuando el usuario no fue registrado
+			Assertions.assertEquals(0, idUsuarioCreado);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Test
+	@DisplayName("Se ingresa un usuario que tiene NULL en algun campo")
+	public void testInsertarUsuarioB() {
+		try {
+//			Seteamos NULL en el campo email
+			usuario_1.setEmail(null);
+
+//			Ingresamos el usuario con email NULL
 			int idUsuarioCreado = (int) usuarioDAO.insertarUsuario(usuario_1);
 
 //			El metodo retorna 0 cuando el usuario no fue registrado
